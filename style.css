@@ -1,0 +1,9 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -300px -400px , 1100px 500px;
+  background-color: hsl(185, 75%, 39%);
+}
