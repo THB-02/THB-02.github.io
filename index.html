@@ -5,47 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
   <link rel="stylesheet" href="style.css">
-
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<link href="https://fonts.googleapis.com/css?family=Kumbh Sans" rel="stylesheet">
 <body>
   <div class="container">
-    <div class="card">
-      <div class="header">
-        <img src="./images/image-victor.jpg" alt="profile picture">
+    <div class="containerText">
+      <div class="text">
+        <p class="title">Learn to code by</p>
+        <p class="title">watching others</p>
+
+        <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.
+        </p>
       </div>
-      <div class="content">
-        <p class="name">Victor Crest <span class="age">26</span></p>
-        <p class="city">London</p>
-      </div>
-      <div class="bottom">
-        <div class="followers">
-          <p class="count">80K</p>
-          <p class="text">Followers</p> 
+    </div>
+    <div class="containerElements">
+      <div class="elements">
+        <div class="buttonTry">
+          Try it free 7 days <span class="endSentence">$20/mo. thereafters</span>
         </div>
-        <div class="likes">
-          <p class="count">803K</p>
-          <p class="text">Likes</p>
-        </div>
-        <div class="likes">
-          <p class="count">1.4K</p>
-          <p class="text">Photos</p>
+        <div class="form">
+
+         
+
+          <form action="">
+              
+           
+          
+          
+            <input type="text" id="fname" name="firstname" placeholder="First Name">
+        
+            <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+            <input type="mail" id="mail" name="email" placeholder="Email Address">
+
+            <input type="password" id="pw" name="password" placeholder="Password">
+          
+            <input type="submit" value="CLAIM YOUR FREE TRIAL">
+            <p class="terms">By clicking the button, you are agreeing to our <span class="termsLink">Terms and Services</span></p>
+          </form>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Thibault Chaves</a>.
-  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Thibault Chaves</a>.
+    </p>
+  </footer>
 </body>
 </html>
